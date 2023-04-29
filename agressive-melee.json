@@ -27,7 +27,7 @@
             "name": "Aggressive Aim",
             "details": [
                 "Shoot at nearest",
-                "Move towards nearest enemy".
+                "Move towards nearest enemy",
                 "Aim if Turn 1"
             ]
         },
