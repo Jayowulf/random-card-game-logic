@@ -49,7 +49,7 @@
         {
             "name": "Cover Melee",
             "details": [
-                "Attack (If base contact)",
+                "Attack",
                 "Move toward nearest cover"
             ]
         },
