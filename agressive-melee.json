@@ -4,44 +4,46 @@
         {
             "name": "Aggressive Melee",
             "details": [
-                "Attack (If base contact)",
+                "Attack",
                 "Move towards nearest enemy"
             ]
         },
         {
             "name": "Aggressive Charge",
             "details": [
-                "Attack (If base contact)",
+                "Attack",
                 "Move towards nearest enemy",
-                "Charge (If turn 1)"
+                "if this unit would make base contact with that enemy, this Move is a Charge"
             ]
         },
         {
             "name": "Aggressive Shoot",
             "details": [
-                "Shoot at nearest (If in range)",
+                "Shoot at nearest",
                 "Move towards nearest enemy"
             ]
         },
         {
             "name": "Aggressive Aim",
             "details": [
-                "Shoot at nearest (If in range)",
-                "Move towards nearest enemy",
-                "Aim and Shoot at nearest (If turn 1 and can aim)"
+                "Shoot at nearest",
+                "Move towards nearest enemy".
+                "Aim if Turn 1"
             ]
         },
         {
             "name": "High Ground",
             "details": [
-                "Move toward higher ground"
+                "Move toward higher ground",
+                "Shoot at nearest"
             ]
         },
         {
             "name": "Higher Ground",
             "details": [
                 "Move toward higher ground",
-                "Shoot at nearest (if turn 2)"
+                "Shoot at nearest",
+                "Aim if turn 1"
             ]
         },
         {
@@ -54,23 +56,27 @@
         {
             "name": "Cover Shoot",
             "details": [
-                "Shoot at nearest (If in range)",
-                "Move toward nearest cover (Except in cover)",
-                "Aim and Shoot at nearest (if turn 1 and can aim)"
+                "Shoot at nearest",
+                "Move toward nearest cover",
+                "-unless in cover",
+                "Aim if Turn 1"
             ]
         },
         {
             "name": "Retreat Full",
             "details": [
-                "Retreat (If base contact)"
+                "Retreat",
+                "Move toward nearest cover",
+                "-unless in cover"
             ]
         },
         {
             "name": "Retreat Studied",
             "details": [
-                "Attack (If base contact)",
-                "Retreat (If base contact)",
-                "(and weaker the combined woudns of characters in base contact)"
+                "Attack",
+                "Move toward nearest cover",
+                "-unless in cover",
+                "If weaker the combined woudns of characters in base contact Retreat"
             ]
         }
     ],
@@ -117,6 +123,6 @@
                 "color": "rgb(100, 150, 25)"
             }
         },
-        "total_cards_in_deck": 40
+        "total_cards_in_deck": 50
     }
 }  
